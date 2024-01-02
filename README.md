@@ -74,8 +74,8 @@ Go to [https://my.smartthings.com](https://my.smartthings.com) and login. Device
 
 <table>
   <tr>
-    <th>SmartThings Edge Drivers</th>
-    <th>Attributes</th>
+    <th> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SmartThings Edge Drivers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Attributes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
   </tr>
   <tr>
     <td rowspan="9">zigbee-lock</td>
@@ -88,7 +88,7 @@ Go to [https://my.smartthings.com](https://my.smartthings.com) and login. Device
   <tr><td>EnableInsideStatusLED</td></tr>
   <tr><td>EnablePrivacyModeButton</td></tr>
   <tr><td>WrongCodeEntryLimit</td></tr>
-  <tr><td>UserCodeTemporaryDisableTime</td></tr>
+  <tr><td>UserCodeTemporaryDisableTime &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
     
   <tr>
     <td>zigbee-siren</td>
