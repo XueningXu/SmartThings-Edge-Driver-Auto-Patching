@@ -52,7 +52,7 @@ local-folder
 
 ## Usage Example
 Before patching an edge driver, you should know exactly what device you are going to use the patched edge driver for and what attributes you want to be patched to the edge driver for this device. 
-The required information includes `driverName`, `deviceModel`, `deviceManufacturer`, and `attributeLists`.
+The required information includes `driverName`, `deviceModel`, `deviceManufacturerCode`, and `attributeLists`.
 
 Below is an example of patching `zigbee-lock` edge driver for the Zigbee Yale Lock with all currently supported attributes. In the terminal, run
 ```
@@ -62,6 +62,11 @@ Below is an example of patching `zigbee-lock` edge driver for the Zigbee Yale Lo
 ### Outputs:
 1. A new folder named `zigbee-lock-backup` will be generated to back up the original edge driver in case need to restore to the original one. 
 2. The folder shares the same name as the original driver folder `zigbee-lock` is the patched driver and can be directly installed in the SmartThings hub. Patched attributes will be displayed on the SmartThings app UI and can be controlled.
+
+## Device Model and Manufacturer
+Go to [https://my.smartthings.com](https://my.smartthings.com) and login. Device model and manufacturer code information can be found under *Advanced Users*. 
+
+![1704160579456](https://github.com/XueningXu/SmartThings-Edge-Driver-Auto-Patching/assets/47044598/7806bb39-9751-47f2-9a0a-58e651aa2445)
 
 
 ## Currently Supported Drivers and Attributes
