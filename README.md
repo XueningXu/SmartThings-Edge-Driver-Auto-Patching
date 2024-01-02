@@ -72,8 +72,6 @@ Go to [https://my.smartthings.com](https://my.smartthings.com) and login. Device
 
 ## Currently Supported Drivers and Attributes
 
-More edge drivers and attributes will be supported in the near future. Stay tuned.
-
 <table>
   <tr>
     <th> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SmartThings Edge Drivers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
@@ -161,4 +159,6 @@ More edge drivers and attributes will be supported in the near future. Stay tune
 </table>
 
 
+
+*More edge drivers and attributes will be supported in the near future. Stay tuned.*
 
