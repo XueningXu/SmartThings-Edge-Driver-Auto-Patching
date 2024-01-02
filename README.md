@@ -2,7 +2,7 @@
 This is a project to automatically patch SmartThings Edge Drivers with previously unsupported Zigbee attributes.
 
 
-## Download Patch Code 
+## Download
 Download the source code from the latest [release](https://github.com/XueningXu/SmartThings-Edge-Driver-Auto-Patching/releases/tag/sourceCode) to a local folder and copy the driver folder to be patched into the local folder. As a result, the driver folder and the shell script `auto_patch.sh` are in the same directory.
 <!---
 The resulting directory tree should be as follows:
