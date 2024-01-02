@@ -67,7 +67,7 @@ Below is an example of patching `zigbee-lock` edge driver for the Zigbee Yale Lo
 1. A new folder named `zigbee-lock-backup` will be generated to back up the original edge driver in case need to restore to the original one. 
 2. The folder shares the same name as the original driver folder `zigbee-lock` is the patched driver and can be directly installed in the SmartThings hub. Patched attributes will be displayed on the SmartThings app UI and can be controlled.
 
-## Device Model and Manufacturer
+## Find Device Model and Manufacturer
 Go to [https://my.smartthings.com](https://my.smartthings.com) and login. Device model and manufacturer code information can be found under *Advanced Users*. 
 
 ![1704160579456](https://github.com/XueningXu/SmartThings-Edge-Driver-Auto-Patching/assets/47044598/7806bb39-9751-47f2-9a0a-58e651aa2445)
