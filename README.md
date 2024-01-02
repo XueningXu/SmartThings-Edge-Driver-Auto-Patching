@@ -69,49 +69,94 @@ Go to [https://my.smartthings.com](https://my.smartthings.com) and login. Device
 ![1704160579456](https://github.com/XueningXu/SmartThings-Edge-Driver-Auto-Patching/assets/47044598/7806bb39-9751-47f2-9a0a-58e651aa2445)
 
 
+
 ## Currently Supported Drivers and Attributes
 
-| SmartThings Edge Drivers | Attributes |
-| --- | --- |
-| zigbee-lock | Language |
-|             | AutoRelockTime |
-|             | SoundVolume |
-|             | OperatingMode |
-|             | EnableOneTouchLocking |
-|             | EnableInsideStatusLED |
-|             | EnablePrivacyModeButton |
-|             | WrongCodeEntryLimit |
-|             | UserCodeTemporaryDisableTime |
-| zigbee-siren | MaxDuration |
-| hue-motion | PIROccupiedToUnoccupiedDelay |
-|            | MotionSensitivity |
-| zigbee-switch | IdentifyTime |
-|               | DeviceEnabled |
-|               | OnOffTransitionTime |
-|               | OnLevel |
-|               | OnTime |
-|               | StartUpOnOff |
-|               | StartUpColorTemperatureMireds |
-| zigbee-dimmer-switch | checkInInterval |
-|                      | FastPollTimeout |
-| zigbee-contact | IdentifyTime |
-|                | DeviceEnabled |
-|                | checkInInterval |
-|                | FastPollTimeout |
-| zigbee-water-leak-sensor | IdentifyTime |
-|                          | DeviceEnabled |
-|                          | checkInInterval |
-|                          | FastPollTimeout |
-| zigbee-button | IdentifyTime |
-|               | DeviceEnabled |
-|               | checkInInterval |
-|               | FastPollTimeout |
-| zigbee-motion-sensor | IdentifyTime |
-|                      | DeviceEnabled |
-|                      | checkInInterval |
-|                      | FastPollTimeout |
-| zigbee-presence-sensor | IdentifyTime |
-|                        | checkInInterval |
-|                        | FastPollTimeout |
+<table>
+  <tr>
+    <th>SmartThings Edge Drivers</th>
+    <th>Attributes</th>
+  </tr>
+  <tr>
+    <td rowspan="9">zigbee-lock</td>
+    <td>Language</td>
+  </tr>
+  <tr><td>AutoRelockTime</td></tr>
+  <tr><td>SoundVolume</td></tr>
+  <tr><td>OperatingMode</td></tr>
+  <tr><td>EnableOneTouchLocking</td></tr>
+  <tr><td>EnableInsideStatusLED</td></tr>
+  <tr><td>EnablePrivacyModeButton</td></tr>
+  <tr><td>WrongCodeEntryLimit</td></tr>
+  <tr><td>UserCodeTemporaryDisableTime</td></tr>
+    
+  <tr>
+    <td>zigbee-siren</td>
+    <td>MaxDuration</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">hue-motion</td>
+    <td>PIROccupiedToUnoccupiedDelay</td>
+  </tr>
+  <tr><td>MotionSensitivity</td></tr>
+
+  <tr>
+    <td rowspan="7">zigbee-switch</td>
+    <td>IdentifyTime</td>
+  </tr>
+  <tr><td>DeviceEnabled</td></tr>
+  <tr><td>OnOffTransitionTime</td></tr>
+  <tr><td>OnLevel</td></tr>
+  <tr><td>OnTime</td></tr>
+  <tr><td>StartUpOnOff</td></tr>
+  <tr><td>StartUpColorTemperatureMireds</td></tr>
+
+  <tr>
+    <td rowspan="2">zigbee-dimmer-switch</td>
+    <td>CheckInInterval</td>
+  </tr>
+  <tr><td>FastPollTimeout</td></tr>
+
+  <tr>
+    <td rowspan="4">zigbee-contact</td>
+    <td>IdentifyTime</td>
+  </tr>
+  <tr><td>DeviceEnabled</td></tr>
+  <tr><td>CheckInInterval</td></tr>
+  <tr><td>FastPollTimeout</td></tr>
+
+  <tr>
+    <td rowspan="4">zigbee-water-leak-sensor</td>
+    <td>IdentifyTime</td>
+  </tr>
+  <tr><td>DeviceEnabled</td></tr>
+  <tr><td>CheckInInterval</td></tr>
+  <tr><td>FastPollTimeout</td></tr>
+
+  <tr>
+    <td rowspan="4">zigbee-button</td>
+    <td>IdentifyTime</td>
+  </tr>
+  <tr><td>DeviceEnabled</td></tr>
+  <tr><td>CheckInInterval</td></tr>
+  <tr><td>FastPollTimeout</td></tr>
+
+  <tr>
+    <td rowspan="4">zigbee-motion-sensor</td>
+    <td>IdentifyTime</td>
+  </tr>
+  <tr><td>DeviceEnabled</td></tr>
+  <tr><td>CheckInInterval</td></tr>
+  <tr><td>FastPollTimeout</td></tr>
+
+  <tr>
+    <td rowspan="3">zigbee-presence-sensor</td>
+    <td>IdentifyTime</td>
+  </tr>
+  <tr><td>CheckInInterval</td></tr>
+  <tr><td>FastPollTimeout</td></tr>
+</table>
+
 
 
