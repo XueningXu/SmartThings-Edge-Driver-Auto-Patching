@@ -50,7 +50,11 @@ local-folder
 ```
 --->
 
-## Usage Example
+## Usage 
+```
+./auto_patch.sh [driver-name] [device-name] [device-manufacturer] [attribute-list]
+```
+### Example
 Before patching an edge driver, you should know exactly what device you are going to use the patched edge driver for and what attributes you want to be patched to the edge driver for this device. 
 The required information includes `driverName`, `deviceModel`, `deviceManufacturerCode`, and `attributeLists`.
 
